@@ -1,3 +1,3 @@
 # Javascript Array Methods Quiz
 
-js-array-methods-quiz.netlify.app
+https://js-array-methods-quiz.netlify.app/
