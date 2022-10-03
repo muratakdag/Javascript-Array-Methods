@@ -1,1 +1,1 @@
-# Javascript-Array-Methods
+# Javascript Array Methods Quiz
