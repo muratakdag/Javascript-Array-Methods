@@ -95,7 +95,7 @@ function checkChoice(event) {
         nextBtn.addEventListener("click", nextFunction); 
     } else {
         // Change button label to 'See Score' & change event listener function
-        nextBtn.textContent = "SONUÇLAR"
+        nextBtn.textContent = "RESULTS"
         nextBtn.removeEventListener("click", nextFunction);
         nextBtn.addEventListener("click", seeScore);
     }

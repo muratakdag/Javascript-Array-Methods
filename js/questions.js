@@ -1,40 +1,40 @@
 const quizQuestions = [
   {
     id: 1,
-    question:
-      'Hangi yöntem bir diziden son öğeyi kaldırır ve o öğeyi döndürür?',
+    question: `Hangi yöntem bir diziden son öğeyi kaldırır ve o öğeyi döndürür? 
+    ['🍅', '🍄', '🥦']--->['🍅', '🍄'];`,
     choices: ['pop()', 'shift()', 'unshift()', 'slice()'],
     answer: 'pop()',
   },
   {
     id: 2,
-    question: 'Hangi yöntem bir dizinin sonuna yeni bir öğe ekler?',
+    question: `Hangi yöntem bir dizinin sonuna yeni bir öğe ekler ve dizinin yeni uzunluğu geriye döner?    
+    ['🍅', '🍄']--->['🍅', '🍄', '🥦']`,
     choices: ['unshift()', 'slice()', 'push()', 'pop()'],
     answer: 'push()',
   },
   {
     id: 3,
-    question: 'Hangi yöntem bir seçime dayalı olarak yeni bir dizi oluşturur?',
+    question: `Hangi yöntem kendisine parametre olarak verilen dizi aralığında bulunan değerleri kopyalar ve yeni bir dizi oluşturarak geri döndürür?
+      ['🍅', '🍄', '🥦', '🥒']--->[ '🍄', '🥦']`,
     choices: ['shift()', 'appendChild()', 'slice()', 'push()'],
     answer: 'slice()',
   },
   {
     id: 4,
-    question: 'Hangi yöntem bir dizinin başına yeni bir öğe ekler?',
+    question: `Hangi yöntem bir dizinin başına yeni bir öğe ekler ve dizinin yeni uzunluğu geriye döner? [ '🍄', '🥦']--->['🍅', '🍄', '🥦']`,
     choices: ['unshift()', 'pop()', 'shift()', 'slice()'],
     answer: 'unshift()',
   },
   {
     id: 5,
-    question:
-      'Hangi yöntem bir diziden ilk öğeyi kaldırır ve o öğeyi döndürür?',
+    question: `Hangi yöntem bir diziden ilk öğeyi kaldırır ve o öğeyi döndürür? ['🍅', '🍄', '🥦']--->[ '🍄', '🥦']`,
     choices: ['push()', 'slice()', 'unshift()', 'shift()'],
     answer: 'shift()',
   },
   {
     id: 6,
-    question:
-      'Bir dizinin öğelerini alfabetik veya sayısal sıraya göre yeniden düzenleyen yöntem hangisidir?',
+    question: `Bir dizinin öğelerini alfabetik veya sayısal sıraya göre yeniden düzenleyen yöntem hangisidir? ['murat', 'ali', 'engin']-->['ali', 'engin', 'murat']`,
     choices: ['every()', 'reduce()', 'sort()', 'includes()'],
     answer: 'sort()',
   },
@@ -61,8 +61,7 @@ const quizQuestions = [
   },
   {
     id: 10,
-    question:
-      'Hangi yöntem  bir dizideki her öğe için sağlanan işlevi bir kez yürütür?',
+    question: `Hangi yöntem  bir dizideki her öğe için sağlanan işlevi bir kez yürütür?`,
     choices: ['every()', 'forEach()', 'map()', 'reduce()'],
     answer: 'forEach()',
   },
