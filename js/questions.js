@@ -41,7 +41,7 @@ const quizQuestions = [
   {
     id: 7,
     question:
-      'Hangi yöntem  dizi içerisindeki tüm elemanları bir işlemden geçirmek için kullanır? Her bir eleman tek tek işlenir, değerleri değiştirilebilir, geriye işlemden geçen öğelerden oluşan bir diziyi döndürür?',
+      'Hangi yöntem  dizi içerisindeki tüm elemanları bir işlemden geçirmek için kullanır? Her bir eleman tek tek işlenir, değerleri değiştirilebilir, geriye işlemden geçen öğelerden oluşan yeni bir diziyi döndürür?',
     choices: ['map()', 'filter()', 'reduce()', 'forEach()'],
     answer: 'map()',
   },
@@ -61,7 +61,7 @@ const quizQuestions = [
   },
   {
     id: 10,
-    question: `Hangi yöntem  bir dizideki her öğe için sağlanan işlevi bir kez yürütür?`,
+    question: 'Hangi yöntem bir dizideki her öğe için sağlanan işlevi bir kez yürütür. Her dizi öğesi için işlevi çalıştırdıktan sonra,sağlanan işlevin sonucuna göre mevcut dizi öğelerinin değerlerini değiştirir?',
     choices: ['every()', 'forEach()', 'map()', 'reduce()'],
     answer: 'forEach()',
   },
